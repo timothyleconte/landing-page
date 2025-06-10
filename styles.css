@@ -51,7 +51,7 @@ ul{
 }
 
 .hero-list{
-    max-width: 400px;
+    max-width: 450px;
     margin-right: 100px;
 }
 
@@ -62,4 +62,13 @@ ul{
 
 .top-button{
     margin-top: 1em;
+    background-color: #3882F6;
+    padding: 10px 25px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
 }
