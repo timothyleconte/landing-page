@@ -36,6 +36,8 @@ ul{
 
 .links-right{
     display: flex;
+    padding-right: 75px;
+    gap: 30px;
 }
 
 .hero{
