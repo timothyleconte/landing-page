@@ -5,5 +5,13 @@ body{
 
 a{
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
     
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
