@@ -76,11 +76,6 @@ ul{
     border-radius: 10px;
 }
 
-.images-list{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
 
 .random{
     display: flex;
@@ -93,4 +88,15 @@ ul{
 .img-info{
     border: 5px solid #3882F6;
     border-radius: 20px;
+}
+
+.image-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.images-list{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
