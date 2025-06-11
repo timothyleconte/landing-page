@@ -75,3 +75,22 @@ ul{
     font-weight: bold;
     border-radius: 10px;
 }
+
+.images-list{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.img-info{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
