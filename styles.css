@@ -95,8 +95,14 @@ ul{
     flex-direction: column;
 }
 
-.images-list{
+.images{
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+
+.images-text{
+    max-width: 150px;
+    text-align: center;
+    color: #1F2937;
 }
