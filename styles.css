@@ -2,7 +2,8 @@
 body{
     display:flex;
     flex-direction: column;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    margin: 0;
 }
 
 a{
@@ -16,6 +17,14 @@ ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .logo{
@@ -37,14 +46,18 @@ ul{
 
 .links-right{
     display: flex;
-    padding-right: 75px;
+    /* padding-right: 50px; */
     gap: 30px;
 }
 
 .hero{
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding: 100px 0px;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    width: fit-content;
+
 }
 
 .awesome{
@@ -54,8 +67,21 @@ ul{
 }
 
 .hero-list{
-    max-width: 450px;
-    margin-right: 100px;
+    /* max-width: 450px;
+    margin-right: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.hero-image,
+.hero-list{
+    max-width: 500px;
+}
+
+.hero-image{
+    margin-left: 75px;
 }
 
 .hero-sub{
@@ -64,9 +90,9 @@ ul{
 }
 
 .top-button{
-    margin-top: 1em;
+    /* margin-top: 1em; */
     background-color: #3882F6;
-    padding: 10px 25px;
+    padding: 10px 10px;
     border: none;
     text-decoration: none;
     text-align: center;
@@ -74,7 +100,9 @@ ul{
     font-size: larger;
     font-weight: bold;
     border-radius: 10px;
+    max-width: 150px;
 }
+
 
 
 .random{
@@ -101,11 +129,14 @@ ul{
     gap: 50px;
 }
 
+
 .images-text{
     max-width: 150px;
     text-align: center;
     color: #1F2937;
 }
+
+
 
 .info{
     padding-bottom: 100px;
@@ -113,30 +144,33 @@ ul{
 
 .quote{
     background-color: #E5E7Eb;
+    padding: 80px 20px;
 }
 
-.quote-box{
+/* .quote-box{
     display: flex;
     flex-direction: column;
     padding: 150px 300px;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .quote-text{
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
-    text-align: center;
+    /* text-align: center; */
+    max-width: 760px;
+    margin: auto;
 }
 
 .signature{
-    align-self: end;
+    text-align: right;
     font-weight: bold;
-    margin-right: 100px;
-    margin-top: -20px;
     font-size: 20px;
+    max-width: 760px;
+    margin: auto;
 }
 
 .action-2{
@@ -145,8 +179,10 @@ ul{
     color: white;
     border-radius: 20px;
     padding: 50px 150px;
-    margin: 100px 200px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 80px auto;
    
 }
 
