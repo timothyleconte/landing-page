@@ -137,3 +137,19 @@ ul{
     margin-right: 100px;
     margin-top: -25px;
 }
+
+.action-2{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 20px;
+    padding: 50px 150px;
+    margin: 100px 200px;
+    justify-content: space-between;
+   
+}
+
+.call{
+    font-size: 25px;
+    font-weight: bold;
+}
