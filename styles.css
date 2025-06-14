@@ -26,6 +26,12 @@ ul{
     flex-shrink: 1;
 } */
 
+@media (max-width 800px){
+    *{
+        flex-direction: column;
+    }
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
