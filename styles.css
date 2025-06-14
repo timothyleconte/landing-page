@@ -135,7 +135,8 @@ ul{
     align-self: end;
     font-weight: bold;
     margin-right: 100px;
-    margin-top: -25px;
+    margin-top: -20px;
+    font-size: 20px;
 }
 
 .action-2{
@@ -165,4 +166,16 @@ ul{
     font-weight: bold;
     border-radius: 10px;
 
+}
+
+.footer{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2{
+    color: white;
+    padding: 25px 0
 }
